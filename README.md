@@ -3,7 +3,6 @@
 ### Conheça o projeto: https://sistemaparabarbearia.grupowebsystem.com.br/sistema/index.php
 - HTML5
 - CSS3
-- Bootstrap
 - JavaScript
 - PHP
 - MySQL
