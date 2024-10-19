@@ -1,0 +1,31 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+RewriteRule ^lista_produtos-(.*)$ lista_produtos.php?pagina=$1 [L]
+RewriteRule ^categorias-(.*)$ categorias.php?pagina=$1 [L]
+RewriteRule ^produto-(.*)$ produto.php?url=$1 [L]
+
+RewriteRule ^categoria-(.*)-(.*)$ categoria.php?url=$1&pagina=$2
+RewriteRule ^subcategoria-(.*)-(.*)$ subcategoria.php?url=$1&pagina=$2
+
+
+
+RewriteRule ^$ index.php
+RewriteRule ^index$ index.php
+RewriteRule ^contatos$ contatos.php
+RewriteRule ^login$ login.php
+RewriteRule ^cadastrar$ cadastrar.php
+RewriteRule ^categorias$ categorias.php
+RewriteRule ^categorias$ categorias.php
+RewriteRule ^carrinho$ carrinho.php
+RewriteRule ^lista_produtos$ lista_produtos.php
+RewriteRule ^termos$ termos.php
+
+RewriteRule ^loja-(.*)$ loja.php?url_loja=$1 [L]
+
+
+Options -Indexes
+Options All -Indexes
+

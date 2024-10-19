@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^pedidos_loja(.*)$ index.php?pagina=pedidos_loja [L]
+RewriteRule ^index(.*)$ index.php [L]
+RewriteRule ^receber(.*)$ index.php?pagina=receber [L]
+RewriteRule ^fornecedores(.*)$ index.php?pagina=fornecedores [L]
+RewriteRule ^produtos(.*)$ index.php?pagina=produtos [L]
+RewriteRule ^banners(.*)$ index.php?pagina=banners [L]
+RewriteRule ^pedidos(.*)$ index.php?pagina=pedidos [L]
+RewriteRule ^categorias(.*)$ index.php?pagina=categorias [L]
+RewriteRule ^subcategorias(.*)$ index.php?pagina=subcategorias [L]
+RewriteRule ^cupons(.*)$ index.php?pagina=cupons [L]
