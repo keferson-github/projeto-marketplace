@@ -1,6 +1,6 @@
 # Projeto Marketplace
 ## Plataforma Marketplace e Multilojas com Dashboard Admin
-### Conheça o projeto: https://sistemaparabarbearia.grupowebsystem.com.br/sistema/index.php
+### Conheça o projeto: https://projetomarketplace.grupowebsystem.com.br/
 - HTML5
 - CSS3
 - JavaScript
