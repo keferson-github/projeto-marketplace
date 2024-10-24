@@ -1,5 +1,5 @@
 # Projeto Marketplace
-## Plataforma Marketplace e Multilojas com Dashboard Admin/Cliente
+## Plataforma Marketplace e Multilojas com Dashboard Admin/Vendedor/Cliente
 ### Conheça o projeto: https://projetomarketplace.grupowebsystem.com.br/
 - HTML5
 - CSS3
